@@ -26,3 +26,7 @@ In this project I tried to implement a GoogLeNet architecture and train it from 
 # Methodology
 I implemented the architecture using the standards mentioned in the original paper by Szegedy et al. I trained the model using a manual changing learning rate where I stopped the model when I noticed overfitting, decreased the learning rate by a factor of 10 and resumed training. The exact breakdown is as such Epoch: 1-26 at 1e-3, Epoch 27-40 at 1e-4, Epoch 41-52 at 1e-5 and Epoch 52-60 at 1e-6. After this point I saw no significant development and stopped the training. Finally I recieved a rank-1 and rank-5 accuracy of 29.83% and 56.22% respectively. When compared to the leaderboards given <a href='https://tiny-imagenet.herokuapp.com/'>here</a>, I stand in the top 10. A further possible improvement could be made to the model by dropping some regularizations such as Dropout layers.  
  
+# Output
+Below is the output of the training plot
+<br>
+<img src="outs/training_plot.jpg">
